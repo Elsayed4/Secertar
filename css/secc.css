@@ -1,0 +1,1550 @@
+body{
+    box-sizing: border-box;
+    
+}
+
+.upper-bar{
+ color: #fff;
+ padding:10px 0;
+ float: right;
+ width:100%;
+ background:#e91e63;/*main color*/
+ position:relative;
+}
+/*
+.upper-bar:after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    border-top:25px solid transparent;
+    border-bottom:25px solid #FFF;
+    border-left:25px solid #FFF;
+    border-right:25px solid transparent;
+}
+*/
+.fa-chevron-up{
+ float: right;
+ position: fixed;
+ bottom: 80px;
+ right: 35px;
+ background-color: #e91e63;/*main color*/
+ padding: 8px;
+ color:#fff;
+ border-radius: 50%;
+ cursor: pointer;
+z-index: 3
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+.upper-bar .up-analysis ul{
+    list-style: none;
+    width: 200px;
+   
+}
+
+.navbar .dropdown-menu{
+   padding-left: 4px;
+   padding-right: 4px;
+}
+
+.collapse ul li{
+    margin-left: 10px;
+}
+
+.collapse ul li a{
+    color: #e91e63 !important;
+           /*main color*/
+}
+
+
+.collapse ul li a:hover,.mymainactive{
+    background-color:#f6f6f7 !important;
+    transform: scale(1.05);
+    transition: all .2s ease;
+    border-radius: 5px;
+    border-bottom: 1px solid #e91e63;/*main color*/
+
+}
+
+.dash{
+    z-index: 100;
+    background-color: firebrick !important;
+    height: 10px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+.upper-bar .up-analysis ul li{
+    display: inline;
+    color: #fff !important;
+    margin-left: 4px;
+}
+
+
+.navbar{
+    background-color: #fff;
+}
+
+.navbar i{
+    font-size: 30px;
+/*    margin-top: 30px;*/
+    border: none;
+}
+
+.navbar button{
+ margin-top: 30px;
+ color: #e91e63;/*main color*/
+ border-color:#e91e63;/*main color*/
+}
+
+.navbar-brand span:first-child,.footer .p1{
+    color: #08526d;
+    font-weight: bold;
+    
+}
+
+.navbar .navbar-brand img{
+ margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand span:last-child ,.footer .p1{
+    color: #ec1c23;
+}
+
+.upper-bar .up-analysis .btn-primary {/*make an override on btn-primary class */
+    color: #e91e63;/*main color*/
+    background-color: #fff;
+    height: 35px;
+    margin-top: -3px;
+    width: 100px;
+}
+
+.upper-bar .up-analysis .btn-primary:hover{
+    color:#fff;
+    background-color:  #e91e63;/*main color*/
+}
+
+
+.upper-bar .up-analysis .row .sec1, .upper-bar .up-analysis button{
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+
+.upper-bar .up-analysis button{
+    width: 100px;
+    display: flex;
+/*    margin-bottom: -50px;*/
+    margin: -10px auto 0 !important;
+
+}
+
+.upper-bar .up-analysis .Mleft i{
+    margin-right: 3px;
+}
+
+.upper-bar .up-analysis .col{
+    padding-right: 0;
+}
+
+/* starting social media icons */
+
+
+.upper-bar .up-analysis .social ul li{
+     color: #fff;
+     margin-top: 10px;
+     margin-left: 5px;
+     padding: 7px;
+     font-size: 30px;
+     
+
+      
+}
+
+
+/*.upper-bar .fa-facebook,.upper-bar .fa-google,.upper-bar .fa-whatsapp,.upper-bar .fa-twitter,.upper-bar .fa-youtube-play{
+     background-color: #fff;
+     margin-top: 10px;
+     padding: 7px;
+     border-radius: 50%;
+     background-color: #fff;
+}
+
+.upper-bar .fa-facebook:hover{
+    color:#fff;
+    background-color: #3b5999;
+}
+
+.upper-bar .fa-whatsapp:hover{
+    color:#fff;
+    background-color: #25D366;
+    
+}
+
+.upper-bar .fa-twitter:hover{
+    color:#fff;
+    background-color: #55acee;
+    
+}
+
+.upper-bar .fa-youtube-play:hover{
+    color:#fff;
+    background-color: #cd201f;
+    
+}
+*/
+@media(min-width:768px){
+    .upper-bar .up-analysis .social ul li{
+        text-align: center;
+    }
+}
+
+
+/* ending media icons */
+
+
+.sec1 , .sec{
+    margin: 10px 0;
+}
+
+.sec1 span:first-child{
+         margin-right: 20px
+}
+
+.sec p{
+    display: inline;
+        
+}
+
+@media(max-width:576px){
+    .sec1{
+        margin-bottom: 0;
+    }
+    .sec span{
+        border:none !important;
+    }
+}
+
+.sec span{
+    margin-left: 15px;
+    padding: 3px  6px;
+    border:1px solid #ccc;    
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+
+ .carousel-indicators li{
+    height: 10px;
+    margin-left: 10px;
+}
+
+.carousel-item{
+    max-height: 530px;
+}
+
+.mt{
+    margin-top: -55px;
+}
+
+.dropdown-menu{
+    max-width: 3rem;
+}
+
+.services > h2{
+    color: #e91e63;
+    background-color: #f6f7f2;
+    padding: 50px 1px;
+}
+
+@media(max-width:576px){
+ .carousel-indicators li{
+      display: none;
+ }
+
+.services{
+        margin-top: -40px;
+        z-index: 200px;
+}
+
+
+}
+/*ending carousel*/
+/* starting styling services */
+.services h2{
+    text-transform: capitalize;
+    text-align: center;
+    width: 100;
+    margin:70px auto 50px auto; 
+
+}
+
+.cards{
+    max-width: 300px;
+    border: 2px solid #e91e63;/*main color*/
+    margin-bottom: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cards:hover{
+    transform: scale(1.07)
+}
+
+.cards img{
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 2px solid #e91e63;/*main color*/
+}
+
+.card-body{
+    padding: .5rem;
+}
+
+
+@media(max-width:578px){/*hidding up icon in small screens*/
+   .cards{
+      margin: 20px auto;       
+    }
+
+    
+    .fa-chevron-up{
+     display: none !important;   
+    }    
+
+.services h2{
+    margin:70px auto 20px auto; 
+    font-size: 35px;
+  }
+}
+
+
+
+/*********************** ending styling cards **************/
+/*********************** starting styling repeated qution **************/
+
+.repeated-qution  > h2{
+   color:#e91e63;
+   padding-top: 30px;
+   padding-bottom: 60px;
+}
+
+.repeated-qution{
+   margin-top: 60px;
+   padding-top:30px;
+   padding-bottom:70px;
+   background-color: #F6f6f2;
+}
+
+.repeated-qution .container .row > span{
+     border:1px solid #e91e63;
+     padding: 8px;
+     font-size: 22px;
+     color: #e91e63;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.repeated-qution .container .row > span:hover{
+     color: #fff;
+     background-color: #e91e63;
+     
+}
+
+
+.repeated-qution .container .row span:first-of-type{
+   margin-right: 75px;    
+}
+
+.repeated-qution .container .row span:last-of-type{
+   margin-left: 75px;
+}
+
+
+/* Starting styling footer */
+
+.footer iframe{
+    width: 300px;
+    height: 300px;
+}
+
+.footer{
+    background-color: #2a3844;
+    position: relative;
+}
+
+.footer h2{
+    margin:  50px auto;
+    color: #e91e63;/*main color*/
+}
+
+.footer   ul li a{
+    color: #fff!important;
+}
+
+.footer   ul li :hover{
+    
+transform: scale(1.1);
+    
+}
+
+.topsection p{
+    color:#fff;
+    user-select: none;
+}
+
+.topsection .propic{
+   
+}
+
+.footer   ul li {
+ margin-bottom: 15px !important;
+}
+
+
+.copyRight{
+    background-color:#e91e63;/*main color*/
+    margin-top: 10px;
+}
+.copyRight p{
+    text-align: center;
+    color: #fff;
+    padding-top:15px;
+    padding-bottom:0;
+}
+
+.footer .container .row div  p{
+  margin-bottom: 0;    
+}
+
+.propic{
+    width: 100px;
+    height: 100px;
+    position: relative;
+ 
+}
+
+.topsection {
+    padding-left: 25px;
+}
+
+.propic img{
+    margin-right: 22px;
+     border:2px solid #e91e63;/*main color*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.footer a{
+  color: #fff;
+  text-align: right;
+  
+}
+
+.topsection{
+    margin-bottom: 10px;
+}
+
+@media(max-width:992px){
+.footer h2{
+  font-size: 22px;
+}
+}
+
+
+
+@media(max-width:578px){
+    .dd{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .row{
+        text-align: center;
+    } 
+    
+    
+    .fa-topsection{
+     margin-left:  20px;
+    }
+
+
+.footer iframe{
+    width: 200px;
+    height: 200px;
+  }
+
+}
+
+
+
+
+/* ============ ending styling footer ====== */
+
+/* starting top 10 */
+
+.services .num{
+margin-left: 50px;
+border: 1px solid #4a9ade;/*main color*/
+padding: 2px 8px;
+}
+
+.services .num:hover{
+background-color:  #4a9ade;/*main color*/
+color:#fff;
+}
+
+/*ending top 10*/
+/****************  starting portofoliohead  *************/
+.portfolioHead{
+    background-image: url('../Photo/npic3.jpg');
+    height: 450px;
+    margin-bottom: 30px;
+    background-size: cover;
+    position: relative;
+}
+
+ .proName{
+     text-transform: capitalize;
+     height: 180px;
+     color: #e91e63;/*main color*/
+     border: 2px solid #e91e63;/*main color*/
+     border-radius: 40px;
+     padding: 0 10px;
+     position: absolute;
+     top: 110px;
+}
+
+.maxfont{
+    font-size: 50px !important;
+}
+
+.proName h2{
+    margin-top: 30px;
+    font-weight: 600;
+    
+}
+
+.proAdd{
+   text-transform: capitalize;
+   height: 180px;
+   color: #e91e63;/*main color*/
+   border: 2px solid #e91e63;/*main color*/
+   border-radius: 40px;
+   padding: 10px 30px;
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
+
+.proAdd button:nth-child(2){
+    margin-top: 25px;
+}
+
+.proAdd button{
+    padding: 4px 8px;
+    color: #e91e63;/*main color*/
+    border: 2px solid #e91e63;/*main color*/
+    display: block;
+    font-size: 25px;
+    margin-top: 20px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.proAdd button:hover{
+   background-color: #e91e63;/*main color*/
+   color: #fff !important;
+   text-decoration: none;
+    cursor: pointer;
+     transition:all .4s ease;
+}
+
+@media(max-width:576px){
+   .proName,.proAdd{
+     height: 120px;
+     border: 2px solid #e91e63;/*main color*/
+     border-radius: 20px;
+     padding: 0 10px;
+}
+
+.proName h2{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px!important;
+}
+    
+ .proAdd  button{
+    font-size: 15px;
+    margin-top: 10px;
+ }
+}
+
+
+/* ending portfolio head */
+
+/*        starting home servics    */
+ 
+ .container .sheffle{
+    overflow: hidden;
+    margin: 50px 0 20px 0;
+    width: 99%;
+}
+
+ .container .sheffle > span{
+    float: left;
+    border:1px solid #e91e63;/*main color*/
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 15%;
+    color: #e91e63;/*main color*/
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+
+.header .container .sheffle{
+    overflow: hidden;
+    margin: 50px 0 80px;
+    width: 80%;
+}
+
+.activee{
+    background-color: #e91e63;/*main color*/
+    color:#fff !important;
+}
+
+
+ .container .sheffle > span:hover{
+    color: #fff;
+    background-color:#e91e63;/*main color*/
+    cursor: pointer;
+    transform: scale(1.15);
+     transition:all .15s ease;
+
+}
+
+#services .mix{
+    display: none;
+}
+
+
+
+@media (max-width:576px){/* this media to for sheffle taps */
+     .container .sheffle > span{
+    float: left;
+    border:1px solid #e91e63;/*main color*/
+    padding: 2px;
+    margin-left: 4px;
+    border-radius: 15%;
+    color: #e91e63;/*main color*/
+    margin-bottom: 10px;
+}
+
+ .container .sheffle > span:hover{/* no scale when hover sheffle taps*/
+    transform: scale(1);
+}
+    
+    
+}
+
+/*============      starting form post     ===================*/
+.form-control{
+    border: 2px solid #e91e63;/*main color*/
+}
+    
+
+.addpost{
+    background-color: #f6f6f7;
+    padding: 70px 0 30px 0;
+    margin-top: 50px;
+}
+
+.addpost .container h2,.addvideo .container h2{
+    margin-bottom: 40px;
+    color: #e91e63;
+}
+
+.addpost label{
+    text-transform:uppercase;
+    font-size: 20px;
+}
+
+.addpost .btn-primary,.addvideo .btn-primary{
+    color:#fff;
+    background-color:#e91e63;/*main color*/
+    border-color: #e91e63;
+    margin-top: 60px;
+    width: 150px;
+} 
+
+
+.addpost form ,.addvideo form{
+    margin-bottom: 40px;
+}
+
+.addvideo h2{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.form-group{
+  margin-bottom: 35px;  
+}
+
+form label{
+    color: #e91e63;
+    font-weight: 500;
+}
+
+
+@media(max-width:576px){
+  .addpost .container h2,.addvideo .container h2{
+    margin-bottom: 40px;
+    font-size:23px;  
+    }
+    
+}
+
+
+/********************        ending home services    *****************************/
+
+
+/********************        strating videos page    ******************************/
+
+
+.videoNone  > h2{
+    margin-top:40px; 
+    background-color: #f6f6f2;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+
+.videoNone .messageNone{
+    padding: 40px 0;
+    border: 2px solid #e91e63;/*main color*/
+    margin-bottom: 60px;
+}
+
+.videoNone .messageNone p{
+    font-size: 30px;
+}
+
+.videoNone .messageNone button{
+    padding: 4px 8px;
+    color:#e91e63;/*main color*/
+    background-color: #fff;
+    border: 2px solid #e91e63;/*main color*/
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.videoNone .messageNone button:hover{
+    color:#fff;
+    background-color:#e91e63;/*main color*/
+    transition:all .4s ease;
+    
+}
+
+.videoNone h2{
+    margin: 60px 0;    
+    color:#e91e63;     
+}
+
+
+@media(max-width:576px){/*this media to make signup page responsive in small screen */
+.videoNone .messageNone p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.videoNone h2{
+    font-size: 34px;
+    margin: 60px 0;    
+    color:#e91e63;     
+  }
+
+}
+
+/*********** Ending Video None ***************/
+
+.ourvideo{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: aqua
+}
+.owl-video{
+    height: 200px;
+    width: 200px
+}
+
+.cdcc{
+    height: 800px;
+    width: 800px;
+    border:1px solid #ccc;
+    background-color: darkorchid;
+}
+
+
+/*=============================    Starting Styling SignUp Container   ==================================*/
+
+.signUp{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: -80px;
+}
+
+
+.specificContainer{
+    width: 560px;
+    margin: auto auto;
+/*    border:2px solid #ccc;*/
+}
+
+  .signUp input[type="text"] , .signUp input[type="email"] , .login input[type="password"],.login input[type="email"] , .signUp input[type="password"],.addvideo input[type="text"],.myPpage input[type="text"] , .myPpage input[type="email"],.myPpage input[type="number"] {
+    box-shadow: none;
+    border-color:#e91e63; /*main color*/
+}
+
+.signUp .form-check-input{
+    margin-right: -.5125rem;
+}
+
+.signUp .btn-primary,.login .btn-primary,.contact-Us .btn-primary{/*make an override on btn-primary class */
+    background-color: #e91e63;/*main color*//*main color*/
+    border-color:#e91e63;/*main color*/
+    box-shadow: none;
+    width: 150px;
+}
+
+
+
+.nav-item i{/*==== styling icon user  ====*/
+    margin-left: 50px;
+    margin-top: -25px;
+    color: #e91e63;/*main color*/
+}
+
+.circlle{/*==== styling header in the form ====*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+@media(max-width:576px){/*this media to make signup page responsive in small screen */
+.specificContainer{
+      width: 245px;
+/*      border:2px solid #ccc;*/
+      margin: 50px auto; 
+
+    }
+    
+.signUp  .nav-item i{/*==== styling icon user  ====*/
+    margin-top: 25px;
+    color: #e91e63;/*main color*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    }
+    
+.signUp .nav-tabs .nav-item {
+        width: 100px;
+        float:left
+    }
+    
+    .nav-tabs .nav-item a{
+     font-size:16px
+    }
+
+.signUp .nav-item .nav-link{
+    font-size: 13px;
+}
+    
+.signUp .proBen .nav-item .nav-link{
+      display: block;
+}
+    
+.signUp  .nav-link{
+          font-weight: 500  
+    }
+    
+}
+
+/*=============================    ending Styling SignUp Container   ==================================*/
+
+/*=============================    Starting Styling login Container   ==================================*/
+
+.login i{/*==== styling icon user  ====*/
+    
+    color: #e91e63;/*main color*/
+}
+
+
+.login{
+ background-color: #f6f6f7;
+ padding: 30px;
+     width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
+.login .containelogin{
+      padding: 40px 30px;
+      width: 560px;
+      border:2px solid #ccc;
+      margin: 0 auto; 
+      background-color: #fff;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      box-shadow: 0px 20px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.login .notfound a{
+    float:right;
+    
+}
+
+
+.login .notfound button,.login .centerit button{
+    margin-bottom: 20px;
+}
+
+
+
+.centerit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.login .LoginHeader{
+  margin-top: 15px;    
+  margin-bottom: 15px;    
+}
+
+
+@media(max-width:576px){/*this media to make login page responsive in small screen */
+.login   .containelogin{
+  width: 245px;
+  border:2px solid #ccc;
+  margin: 50px auto; 
+}
+  
+.login .notfound button,.login .centerit button{
+    margin-bottom: 20px;
+    width: 100%;
+}
+    
+.login .notfound a{
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+    
+}
+/*=============================    ending Styling login Container   ==================================*/
+
+
+/*=============================    starting Styling forgetpass Container   ==================================*/
+.forgetpass{
+ background-color: #f6f6f7;
+ padding: 30px;
+}
+
+.login{
+ background-color: #f6f6f7;
+ padding: 30px;
+}
+
+.forgetpass .containepass{
+      padding: 40px 30px;
+      width: 560px;
+      border:2px solid #ccc;
+      margin: 0 auto; 
+      background-color: #fff;
+      margin-top: 100px;
+      margin-bottom: 100px;
+     box-shadow: 0px 20px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.forgetpass h2{
+    margin: 20px auto 40px auto;
+    margin-top:20px;
+    margin-bottom: 40px;
+    color: #e91e63;/*main color*/
+}
+
+.forgetpass .form-group{
+    margin-bottom: 50px;
+    color: #e91e63;/*main color*/
+}
+
+.forgetpass .btn-primary,.forgetpass a{/*make an override on btn-primary class */
+    color:#fff;
+    background-color:#e91e63;/*main color*/
+    box-shadow: none;
+    border-color: #e91e63;/*main color*/
+}
+
+.forgetpass a:hover{
+    text-decoration: none;
+}
+
+
+@media(max-width:576px){/*this media to make password page responsive in small screen */
+.forgetpass  .containepass{
+  width: 245px;
+  border:2px solid #ccc;
+  margin: 50px auto; 
+}
+
+.forgetpass .containepass h2{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0;
+    margin-top: 0; 
+    margin-bottom: 20px;    
+    }
+}
+
+@media(max-width:320px){
+.forgetpass .containepass{
+  width: 200px;
+  border:1px solid #ccc;
+  margin: 20px auto; 
+
+ }
+    
+.forgetpass .containepass h2{
+    width: 150px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0;
+        
+    }
+    
+}
+    
+    
+/*=============================    ending Styling forgetpass page  ==================================*/
+
+/*=============================    starting Styling terms page   ==================================*/
+.terms{
+    height: 500px;
+    background-color: #f6f6f7;
+    padding-top: 30px;
+}
+.terms h2{
+    color: #e91e63;
+}
+
+@media(max-width:578px){
+.terms .container h2{
+    color: #e91e63;
+    font-size: 20px;
+    font-weight:700;
+    }
+    
+}
+/*=============================    ending Styling terms page   ==================================*/
+
+/*=============================    ending Styling contact page   ==================================*/
+.contact-Us{
+    background-color: #f6f6f7;
+    padding-top: 40px;
+}
+
+.contact-Us .container h2{
+    margin-top: 20PX;
+    margin-bottom: 40PX;
+    color: #e91e63;
+}
+
+
+
+.ourContact{
+  width: 100%;
+    display: flex;
+    justify-content: center;
+     
+}
+
+.partcontact {
+    margin-bottom: 70px;
+}
+
+.contact-Us .ourContact i{
+  border-radius: none !important;
+  border: 3px solid #e91e63;
+  padding: 15px 20px;
+  font-size: 40px;
+  color:  #e91e63;
+  background-color:#fff;
+}
+
+.ourContact .fa-facebook:hover{/*change after hover facebook icon*/
+    color:#fff;
+    background-color: #3b5999;
+    transition: all .4s ease;
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+
+.ourContact .fa-whatsapp:hover{/*change after hover whatsapp icon*/
+    color:#fff;
+    background-color: #25D366;
+    transition: all .4s ease;
+     -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+
+}
+
+.ourContact .fa-twitter:hover{/*change after hover twitter icon*/
+    color:#fff;
+    background-color: #55acee;
+    transition: all .4s ease;
+     -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+
+}
+
+.ourContact .fa-youtube-play:hover{/*change after hover youtube icon*/
+    color:#fff;
+    background-color: #cd201f;
+    transition: all .4s ease;
+     -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+
+}
+
+
+@media(max-width:576px){/*this media to make password page responsive in small screen */
+.partcontact{
+   float:left;
+   margin-left: 13px;
+   margin-top: 40px;
+}
+    
+.partcontact:first-of-type{
+   margin-left: 0;
+}
+    
+.contact-Us .ourContact i{
+  border-radius: none !important;
+  border: 2px solid #e91e63;
+  padding: 8px 10px;
+  font-size: 25px;
+}
+
+
+.contact-Us .container h2{
+   font-size: 28px;
+    }
+    
+}
+
+
+/*=============================    ending Styling contact page   ==================================*/
+
+    .resevied-requst  h2{
+        color: #e91e63 !important;
+    }
+    
+    .resevied-requst   .allRequstes .arequest{
+        border:1px solid #e91e63;
+        background-color: dodgerblue;
+        
+    }
+
+/*=============================    starting all video page   ==================================*/
+
+.fa-sliderr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fa-sliderr > h2{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f6f6f2;
+    margin-bottom: 50px;
+    color: #e91e63;
+    letter-spacing: 1.5px;
+    
+}
+
+ .dis-hid{
+   display:none !important; 
+}
+
+.fa-sliderr .slidercontainer .item form{
+    margin-bottom: 40px;
+}
+
+.fa-sliderr .slidercontainer .item form input[type="text"]{
+    color: #e91e63;
+    border-color: #e91e63;
+    outline: 0;
+    margin-right: 10px;
+    padding: 3px 10px;
+    width: 280px;
+    
+}
+
+
+.fa-sliderr .slidercontainer .update-data{
+        color: #e91e63;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    
+}
+.fa-sliderr .slidercontainer h2{
+        color: #e91e63;
+        margin-top: 60px;
+        margin-bottom: 60px;
+}
+
+
+.slidercontainer{
+    width: 900px;
+    margin: auto auto;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.sliderr iframe{
+    border: 2px solid #e91e63;
+    width: 90% !important;
+    height: 400px !important;
+}
+
+
+ .fa-arrow-circle-left,.fa-arrow-circle-right{
+      z-index: 33;
+      color: #e91e63;
+/*    position: absolute;*/
+}
+
+.sliderr iframe .centerit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.controllers i:last-of-type{
+ float: right;
+ margin-right: 20px;
+}
+
+.controllers i:first-of-type{
+ float: left;
+ margin-left: 20px;
+}
+
+
+.controllers i{
+    font-size: 45px;
+    margin-top: -300px;
+
+}
+
+.controllers i:hover{
+    cursor: pointer;
+}
+
+.fa-sliderr form{
+    margin-top: 30px;
+
+}
+
+.fa-sliderr form div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.fa-sliderr form .cont{
+    display: inline;
+    margin-left: 10px;
+    padding: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.fa-sliderr form  div button{
+    border: none;
+    background-color: #e91e63;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+
+.fa-sliderr form  div button:hover{
+  cursor: pointer;
+  outline: 0;
+}
+
+.fa-sliderr form  div i{
+/*    font-size: 20px;*/
+ margin-right: 5px;
+}
+
+@media(max-width:992px){
+.slidercontainer{
+    width: 700px;
+    margin: auto auto;
+ }
+}
+
+@media(max-width:768px){
+.slidercontainer{
+    width: 500px;
+    margin: auto auto;
+}
+
+@media(max-width:576px){
+.slidercontainer{
+    width: 220px;
+    margin: auto auto;
+}
+
+  .sliderr iframe{
+    height: 200px !important;
+}
+    
+.controllers i{
+    margin-top: -170px;
+    font-size: 25px;
+
+}
+
+    
+}
+
+
+/*=============================    ending all video page   ==================================*/
+
+/*=============================    starting site idea page   ==================================*/
+
+.site-idea{
+    margin-bottom: 60px;
+}
+
+.site-idea .container h2{
+    color: #e91e63;
+    padding-top: 70px;
+    margin-bottom: 70px;
+}
+
+.site-idea .part{
+  margin-bottom: 50px; 
+  overflow-x: hidden;
+    position: relative;
+    }
+
+
+.site-idea .fa-img img{
+    width: 100%;
+   height: 300px;
+/*   overflow: hidden;*/
+   border: 1px solid #e91e63;
+    position: absolute;
+}
+
+    
+/*=============================    ending site idea page   ==================================*/
+/*=============================    Starting passRecoverymessage page   ==================================*/
+
+/*=============================    ending passRecoverymessage page   ==================================*/
+    
+ .forgetHundel{
+   background-color: firebrick;       
+ }
+    
+/*=============================    Starting My page page   ==================================*/
+.myPpage{
+    margin-top: 80px !important;
+    margin-bottom: 50px;
+    margin-left: -80px;
+}
+    
+ .myPpage .pagehead{
+   color: #e91e63;     
+ }
+
+.myPpage .nav ,.nav-tabs{
+    margin-right: 0 !important;
+    
+}
+
+
+.myPpage .centerit > .btn-primary{
+        background-color: #e91e63 !important;
+ }
+
+@media(max-width:992px){/*this media to make password page responsive in small screen */
+.myPpage .nav-tabs{
+    display: block !important;
+   }
+    
+.myPpage  .nav-link{
+   border: 0 !important;       
+/*   border:1px solid #ccc; !important;       */
+   color: #e91e63;
+ }
+    
+.myPpage  .nav-item{
+    color: #e91e63 !important;   
+ }
+    
+.myPpage  .nav-link:hover{
+   border: 0;       
+   color: #e91e63;
+    }
+}
+
+    
+@media(max-width:576px){
+ .myPpage .container{
+    width:270px !important;
+    padding-left: 30px;
+    }        
+    
+ .myPpage .pagehead{
+   font-size: 26px;     
+ }
+
+    }    
+    
+/*=============================    Starting My page page   ==================================*/
+    
+    
+/*==============    Starting styling services Provider  page    ===================*/
+.servicesProvider{
+    margin: 60px auto;
+    line-height: 2.2;
+}
+.servicesProvider .info{
+        text-transform: capitalize;
+        font-weight: 600;
+        color:#e91e63;
+}
+.servicesProvider .info span{
+        color:#000;
+        font-weight: Normal;
+}
+
+.servicesProvider .container > h2{
+    color:#e91e63;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.servicesProvider .container h4{
+    color:#e91e63;;
+}
+
+.askServices button{
+    background-color: #e91e63;
+    color: #fff;
+    outline: 0;
+    box-shadow:none;
+    border: 0;
+    padding: 5px 25px;
+}
+
+.askServices button:hover{
+  cursor: pointer;
+}
+
+@media(max-width:576px){/*this media to make password page responsive in small screen */
+.servicesProvider .container h4{
+    margin-top: 40px;
+    border-top: 1px solid #e91e63;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.appear{
+  margin-top: 40px;        
+}    
+    
+}
+
+    
+
+
+
+
+    /********************************* Starting all requstes recived page ******************************************/
+
+    /********************************* Starting all requstes recived page ******************************************/
+    
+    
+    
+    
+    
+    
+/********************* starting framework ************************/    
+
+.made-end{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.made-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.made-start{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+    
+.main-color{
+   color:#e91e63 !important;
+}
+
+.b-noEffect{
+    border-color:#e91e63 !important;
+    outline: 0;
+    box-shadow: none !important;
+    border-color:#e91e63; /*main color*/    
+}
+    
+/* ending my framework */
+    

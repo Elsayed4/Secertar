@@ -1,0 +1,125 @@
+body{
+    background-color: antiquewhite;
+}
+.studentTa{
+     margin-bottom: 50px;
+}
+      .container{
+              width: 1000px;
+              margin: auto;
+/*              border: 2px solid #ccc;*/
+              
+             
+          }
+          .sup{
+              margin-top: 10px;
+              display: block
+          }
+          .part{
+              width: 47%;
+              float: left;
+          }
+          label{
+              margin-right: 30px
+          }
+          button{
+          margin-right: 20px;
+          margin-top: 40px;
+          background-color: #fff;
+          padding: 15px 20px;
+          text-transform:uppercase;
+          color: crimson;
+          border:2px solid #2b73b7;
+          border-radius:25px;
+          outline: 0;    
+        }
+
+        button:hover{
+          border:1px solid Red;    
+          color: #fff;    
+          transition:all .7s ;    
+          background-color: #2b73b7;    
+          transform: scale(1.2);  
+        }
+          .clearfix{
+              clear: both;
+          }
+      table, th, td {
+            border: 1px solid black;
+        }
+          th, td{
+              padding: 10px;
+          }
+          th{
+              background-color: #2b73b7;
+              color: #fff;
+              cursor: pointer;
+              
+          }
+          td:hover{
+              background-color: #2b73b7;
+              color: #fff;
+              cursor: pointer;
+          }
+          
+          table{
+              margin: auto;
+              margin-top: 100px;
+              margin-bottom: 40px;
+          }
+
+h2{
+    margin-top: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    color:#f50231;
+/*    padding-top: 30px;*/
+}
+
+nav{
+    background-color: #2b73b7;
+    
+}
+nav a{
+    color: #fff;
+}
+
+
+.navbar-collapse li{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+
+.nav-link:hover{
+        color: #f50231;
+        transition: all .3s ease-in;
+        margin-top: 5px;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: capitalize;
+/*    color: #f50231!important;  */
+}
+hr{
+    width: 800px;
+    height: 10px;
+    border-color: #2b73b7;
+    border-radius:20px;
+    border-width: 2px;
+}
+
+.route-hr{
+    margin-top: 50px !important;
+}
+
+nav ul li{
+    color: #f50231 !important;
+}
+
+.activee{
+    color: #f50231 !important;
+}
